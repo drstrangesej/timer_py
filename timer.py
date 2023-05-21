@@ -5,7 +5,7 @@ root = Tk()
 root.geometry('400x300')
 root.resizable(0,0)
 root.config(bg ='lavender')
-root.title('TechVidvan - Countdown Clock And Timer')
+root.title('Countdown Clock And Timer')
 Label(root, text = 'Countdown Clock and Timer' , font = 'arial 20 bold',  bg ='light blue').pack()
 Label(root, font ='arial 15 bold', text = 'current time :', bg = 'light blue').place(x = 40 ,y = 70)
 
